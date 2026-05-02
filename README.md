@@ -35,9 +35,31 @@ Instead of manually adding logging statements inside every method, this project 
 * Maven 3.x
 * MySQL Server (if using MySQL)
 
-### Installation
+## ⚙️ Cara Menjalankan Project (Local Development)
 
-1. **Clone the repository:**
+1. **Clone repository ini:**
    ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-   cd your-repo-name
+   git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
+
+2. **Buka project di IDE (IntelliJ IDEA, Eclipse, atau VS Code).**
+
+3. **Run Script SQL**
+
+4. **Konfigurasi Database:**
+Buka file src/main/resources/application.properties dan sesuaikan kredensial database kamu. Contoh untuk MySQL:
+Set Properties
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/[nama_database]?useSSL=false&serverTimezone=UTC
+   spring.datasource.username=[username_kamu]
+   spring.datasource.password=[password_kamu]
+   ```
+6. **Jalankan Aplikasi:**
+Jalankan class utama CruddemoApplication.java.
+
+7. **Akses via Browser:**
+Buka http://localhost:8080 di browser Anda.
+
+## 👨‍💻 Penulis
+Raju Putra Dermawan Software Engineer | Backend Developer
+
+💼 LinkedIn: [linkedin.com/in/raju-putra-dermawan](https://www.linkedin.com/in/raju-putra-dermawan-244919220/)
